@@ -6,12 +6,13 @@ namespace Zork
 
     class Program
     {
+      
 
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Zork!");
 
-           //tring CurrentRoom = Rooms[0];
+           
 
             Commands command = Commands.UNKNOWN;
             while (command != Commands.QUIT)
